@@ -1,0 +1,36 @@
+* {box-sizing: border-box;}
+
+body{
+    background-color: darkslategray;
+}
+
+h1{
+    text-align: center;
+    color: hsl(0, 0%, 96%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1:hover{
+    color: olivedrab;
+}
+
+.row{
+    padding-top: 60px;
+    background-color: white;
+    border: 2px solid black;
+}
+.col{
+    border: 3px solid black;
+    background-color: seashell;
+}
+h3{
+    text-align: right;
+    border: 2px solid black;
+    background-color: silver;
+    color: sienna;
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    width: 50%;
+}
